@@ -1,0 +1,79 @@
+.firstcard,
+.secondcard,
+.thirdcard {
+  height: 170px;
+  width: 300px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid rgba(127, 114, 130, 0.21);
+  border-radius: 15px;
+  text-align: left;
+}
+
+.headofcard,
+.middleofcard,
+.footerofcard {
+  font-family: Verdana, Geneva, sans-serif;
+  letter-spacing: -0.4px;
+  word-spacing: 0.8px;
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  padding-left: 10%;
+}
+
+.firstcard {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 190, 150, 1) 0%,
+    rgba(249, 131, 150, 1) 100%
+  );
+}
+.secondcard {
+  background-image: linear-gradient(
+    90deg,
+    rgba(112, 221, 212, 1) 0%,
+    rgba(16, 142, 224, 1) 100%
+  );
+}
+
+.thirdcard {
+  background-image: linear-gradient(
+    90deg,
+    rgba(123, 218, 208, 1) 0%,
+    rgba(5, 179, 156, 1) 74%
+  );
+}
+
+.footerofcard {
+  padding-top: 10%;
+}
+.middleofcard {
+  font-size: 1.5em;
+}
+
+.iconposition1::after {
+  content: url(../icons/chart-line.svg);
+  position: absolute;
+  padding-left: 10%;
+
+}
+
+.iconposition2::after {
+  content: url(../icons/bookmark.svg);
+  position: absolute;
+  padding-left: 10%;
+
+
+}
+
+.iconposition3::after {
+  content: url(../icons/diamond.svg);
+  position: absolute;
+  padding-left: 10%;
+
+}
